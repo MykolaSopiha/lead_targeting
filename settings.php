@@ -2,19 +2,14 @@
 
 $settings = [
     
-    /*
-     * Код страны для таргетинга.
-     * ISO: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
-     */
     
+    // Страна пользователя
     'country_code' => "US",
     
     
-    'targeting' => [
     
-        /*
-         * Настройки таргетинга
-         */
+    // Настройки таргетинга
+    'targeting' => [
         
         // Платформа
         'Mobile' => true,
@@ -30,6 +25,7 @@ $settings = [
         'iPhone' => true,
         
     ],
+    
     
 ];
 
